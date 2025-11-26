@@ -43,3 +43,17 @@
     // console.log(ele);
 
     // ele.innerText = "Hello"
+
+    // let newEle = document.createElement("a")
+
+    // document.body.append(newEle)
+
+// Event Listeners
+
+// function demo(a){
+//     document.getElementById("heading").innerText = a
+// }
+
+function handle(event){
+    document.getElementById("heading").innerText = event.target.value;
+}
